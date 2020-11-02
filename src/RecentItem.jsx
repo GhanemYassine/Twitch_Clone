@@ -4,8 +4,8 @@ const RecentItem = ({ url, title }) => {
     return (
         <div className='item'>
             <iframe
-                width="1349"
-                height="480"
+                width="400"
+                height="300"
                 src={url}
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
